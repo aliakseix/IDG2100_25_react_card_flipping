@@ -1,0 +1,20 @@
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vw;
+  height: 50vw;
+  width: 50vw;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+}

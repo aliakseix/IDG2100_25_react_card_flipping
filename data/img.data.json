@@ -1,0 +1,34 @@
+[
+	{
+		"fname": "linkedin.svg",
+		"name": "linkedin"
+	},
+	{
+		"fname": "pinterest.svg",
+		"name": "pinterest"
+	},
+	{
+		"fname": "rss.svg",
+		"name": "rss"
+	},
+	{
+		"fname": "tiktok.svg",
+		"name": "tiktok"
+	},
+	{
+		"fname": "twitter.svg",
+		"name": "twitter"
+	},
+	{
+		"fname": "whatsapp.svg",
+		"name": "whatsapp"
+	},
+	{
+		"fname": "youtube.svg",
+		"name": "youtbe"
+	},
+	{
+		"fname": "snapchat.svg",
+		"name": "snapchat"
+	}
+]

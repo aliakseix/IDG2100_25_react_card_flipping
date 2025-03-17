@@ -1,0 +1,38 @@
+.card-container{
+	cursor: pointer;
+	position: relative;
+}
+
+.card-backface{
+	position: absolute;
+	top: 0;
+	background-size: cover;
+}
+
+.card{
+	width: 8vw;
+	height: 12vw;
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 15%;
+	padding: 1vw;
+	backface-visibility: hidden;
+	transition: transform 1s;
+}
+
+.card-frontface.flipped{
+	transform: rotateY(180deg);
+}
+
+.card-backface.flipped{
+	transform: rotateY(-180deg);
+}
+
+.card-image{
+	height: 6vw;
+	width: auto;
+}
+
+.card-text{
+	font-size: 1.3rem;
+}
