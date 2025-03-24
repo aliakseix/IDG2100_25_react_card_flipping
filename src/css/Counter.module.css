@@ -1,0 +1,36 @@
+.container{
+	all: unset;
+	text-align: center;
+	font-size: 1.5rem;
+	width: 100%;
+}
+
+.reset-game-button{
+	display: inline-block;
+	cursor: pointer;
+	background-color: #6E6D70;
+	color: #DFDFDF;
+	padding: 0.4em;
+	border-radius: 5px;
+	/* font-size: 1.7rem; */
+}
+
+.reset-game-button:disabled{
+	cursor: default;
+	background-color: #939196;
+}
+
+
+.counter-container{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2vw;
+}
+
+.counter{
+	flex: 0 1 auto;
+}
+
+.count-info{
+	font-weight: 900;
+}
